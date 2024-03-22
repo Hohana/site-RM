@@ -1,0 +1,206 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+body.first-page {
+  background-image: url("./img/Home.png");
+  background-size: 1450px 860px;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: #131e3d;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 40px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu ul li {
+  margin-left: 15px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #8b8b8b;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.menu ul li a:hover {
+  color: #00bac6;
+}
+
+.menu ul li:hover {
+  border-bottom: 3px solid #00bac6;
+}
+
+.name {
+  flex: 0 0 70%; /* Set width of the name container */
+}
+
+.name ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.name ul li {
+  margin-left: 10px;
+}
+
+.name ul li a {
+  text-decoration: none;
+  color: #cdd5e1;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.col-100 {
+  display: flex;
+  justify-content: center;
+}
+
+.texto-destaque {
+  text-align: center;
+  margin-top: 50px;
+}
+.texto-destaque strong {
+  color: #cdd5e1;
+}
+.texto-destaque h1 {
+  font-weight: normal; /* Set font weight to normal */
+  text-transform: uppercase;
+  font-size: 27px;
+  top: 100px;
+  color: #cdd5e1;
+}
+
+.texto-destaque h1::before {
+  content: "";
+  position: absolute;
+  top: 230px; /* Adjust the position of the line */
+  left: 50%; /* Center the line horizontally */
+  width: 30%;
+  height: 3px; /* Adjust the thickness of the line */
+  background-color: #cdd5e1; /* Adjust the color of the line */
+  transform: translateX(-50%); /* Shift the line back by half of its width */
+}
+
+.texto-destaque p {
+  font-size: 18px;
+  color: #cdd5e1;
+  font-family: "Open Sans", Arial, sans-serif;
+  margin: 0;
+}
+
+.content {
+  max-width: 800px;
+  font-size: 18px;
+  margin-top: 50px;
+  margin: 1;
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #cdd5e1;
+}
+
+.texto-destaque h2 {
+  font-weight: normal; /* Set font weight to normal */
+  text-transform: uppercase;
+  font-size: 25px;
+  top: 100px;
+  color: #cdd5e1;
+}
+
+.columns {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  margin-right: 70px;
+  margin-left: 50px;
+}
+
+.white-section {
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+  margin-top: 150px; /* Adjust the margin-top value to create space between the white section and the content above */
+}
+
+.google-calendar {
+  display: flex;
+  justify-content: center;
+}
+
+.color-block-container {
+  display: flex;
+}
+
+.color-block {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+/* Style for each color block */
+.block-1 {
+  background-color: #131e3d;
+  margin-right: 80px;
+  margin-left: 60px;
+}
+
+.block-2 {
+  background-color: #8197a7;
+  margin-right: 80px;
+  margin-left: 60px;
+}
+
+.block-3 {
+  background-color: #131e3d;
+  margin-right: 80px;
+  margin-left: 60px;
+}
+
+.image-and-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center center; /* Vertically center the items */
+}
+
+.image-and-text-container img {
+  max-width: 100%; /* Adjust the width of the image */
+  margin-right: 20px; /* Add some space between the image and text */
+}
+
+.image-and-text-container p {
+  flex: 1; /* Take up remaining space */
+}
+
+.barra {
+  display: flex;
+  align-items: center; /* Vertically center the items */
+}
+
+.barra img {
+  width: 100%; /* Set the image width to 100% */
+  max-width: 100%; /* Ensure the image doesn't exceed its original size */
+}
+
+.blue-section {
+  background-color: #131e3d;
+  text-align: center;
+  /* Adjust the margin-top value to create space between the white section and the content above */
+}
